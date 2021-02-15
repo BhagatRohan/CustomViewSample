@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_parameter_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rating_grey_border_white_background"
+        android:paddingBottom="@dimen/margin_30">
+
+        <TextView
+            android:id="@+id/tv_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30"
+            android:gravity="center"
+            android:text="Tell us what CLiQed\nfor you"
+            android:textColor="#212121"
+            android:textSize="@dimen/text_size_h2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.rohan.customeviewsample.CustomCaptureParameterRatingView
+            android:id="@+id/layout_parameter_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_24"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_heading" />
+
+        <com.rohan.customeviewsample.CustomCaptureParameterRatingView
+            android:id="@+id/layout_parameter_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_parameter_one" />
+
+        <com.rohan.customeviewsample.CustomCaptureParameterRatingView
+            android:id="@+id/layout_parameter_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_parameter_two" />
+
+        <com.rohan.customeviewsample.CustomCaptureParameterRatingView
+            android:id="@+id/layout_parameter_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_30"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_parameter_three" />
+
+        <TextView
+            android:id="@+id/tv_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_30"
+            android:padding="@dimen/margin_5"
+            android:text="Skip"
+            android:textColor="#494745"
+            android:textSize="@dimen/text_size_p2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_submit"
+            app:layout_constraintBottom_toBottomOf="@id/tv_submit"/>
+
+        <TextView
+            android:id="@+id/tv_submit"
+            android:layout_width="@dimen/margin_120"
+            android:layout_height="@dimen/margin_35"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_30"
+            android:layout_marginEnd="@dimen/margin_30"
+            android:background="@drawable/rating_grey_border_white_background"
+            android:text="Submit"
+            android:textColor="#8d8d8d"
+            android:textSize="@dimen/text_size_p2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_parameter_four" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

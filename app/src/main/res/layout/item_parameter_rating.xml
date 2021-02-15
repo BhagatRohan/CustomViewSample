@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_parameter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineHeight="@dimen/margin_15"
+        android:text="Longevity"
+        android:textColor="#212121"
+        android:textSize="@dimen/font_14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_rate_one"
+        android:layout_width="@dimen/margin_50"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/rating_parameter_left_grey_background"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#8d8d8d"
+        android:textSize="@dimen/text_size_p2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintRight_toLeftOf="@id/view1"
+        app:layout_constraintStart_toStartOf="@id/tv_parameter_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="#ffffff"
+        app:layout_constraintLeft_toRightOf="@id/tv_rate_one"
+        app:layout_constraintRight_toLeftOf="@id/tv_rate_two"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <TextView
+        android:id="@+id/tv_rate_two"
+        android:layout_width="@dimen/margin_50"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="#f3f3f3"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="#8d8d8d"
+        android:textSize="@dimen/text_size_p2"
+        app:layout_constraintLeft_toRightOf="@id/view1"
+        app:layout_constraintRight_toLeftOf="@id/view2"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="#ffffff"
+        app:layout_constraintLeft_toRightOf="@id/tv_rate_three"
+        app:layout_constraintRight_toLeftOf="@id/tv_rate_two"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <TextView
+        android:id="@+id/tv_rate_three"
+        android:layout_width="@dimen/margin_50"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="#f3f3f3"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="#8d8d8d"
+        android:textSize="@dimen/text_size_p2"
+        app:layout_constraintLeft_toRightOf="@id/view2"
+        app:layout_constraintRight_toLeftOf="@id/view3"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="#ffffff"
+        app:layout_constraintLeft_toRightOf="@id/tv_rate_three"
+        app:layout_constraintRight_toLeftOf="@id/tv_rate_four"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <TextView
+        android:id="@+id/tv_rate_four"
+        android:layout_width="@dimen/margin_50"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="#f3f3f3"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="#8d8d8d"
+        android:textSize="@dimen/text_size_p2"
+        app:layout_constraintLeft_toRightOf="@id/view3"
+        app:layout_constraintRight_toLeftOf="@id/view4"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="1dp"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="#ffffff"
+        app:layout_constraintLeft_toRightOf="@id/tv_rate_four"
+        app:layout_constraintRight_toLeftOf="@id/tv_rate_five"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <TextView
+        android:id="@+id/tv_rate_five"
+        android:layout_width="@dimen/margin_50"
+        android:layout_height="@dimen/font_25"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/rating_parameter_right_grey_background"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#8d8d8d"
+        android:textSize="@dimen/text_size_p2"
+        app:layout_constraintLeft_toRightOf="@id/view4"
+        app:layout_constraintTop_toBottomOf="@id/tv_parameter_name" />
+
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:gravity="center"
+        android:text="5/5"
+        android:textColor="#212121"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/tv_rate_five"
+        app:layout_constraintLeft_toRightOf="@id/tv_rate_five"
+        app:layout_constraintTop_toTopOf="@id/tv_rate_five" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

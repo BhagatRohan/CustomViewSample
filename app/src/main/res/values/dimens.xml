@@ -1,0 +1,174 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--margin dimens-->
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_21">21dp</dimen>
+    <dimen name="margin_29">29dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_11">11dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_13">13dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_19">19dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_63">63dp</dimen>
+    <dimen name="font_14">14sp</dimen>
+
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="margin_23">23dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_26">26dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_33">33dp</dimen>
+    <dimen name="margin_34">34dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_38">38dp</dimen>
+    <dimen name="margin_52">52dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_42">42dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_47">47dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_55">55dp</dimen>
+    <dimen name="margin_57">57dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_65">65dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_72">72dp</dimen>
+    <dimen name="margin_74">74dp</dimen>
+    <dimen name="margin_75">75dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_86">86dp</dimen>
+    <dimen name="margin_88">88dp</dimen>
+    <dimen name="margin_90">90dp</dimen>
+    <dimen name="margin_96">96dp</dimen>
+    <dimen name="margin_98">98dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+    <dimen name="margin_156">164dp</dimen>
+    <dimen name="margin_1half">0.5dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_58">58dp</dimen>
+    <dimen name="margin_36">36dp</dimen>
+    <dimen name="margin_81">81dp</dimen>
+
+    <dimen name="dialog_shadow_width">40dp</dimen>
+    <dimen name="dialog_title_height">46dp</dimen>
+
+    <dimen name="nev_searchview_padding">-8dp</dimen>
+
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_106">106dp</dimen>
+    <dimen name="margin_110">110dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_125">125dp</dimen>
+    <dimen name="margin_140">140dp</dimen>
+    <dimen name="margin_160">160dp</dimen>
+    <dimen name="margin_170">170dp</dimen>
+    <dimen name="margin_173">173dp</dimen>
+    <dimen name="margin_185">185dp</dimen>
+    <dimen name="margin_260">260dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+    <dimen name="margin_119">119dp</dimen>
+    <dimen name="margin_250">250dp</dimen>
+    <dimen name="margin_280">280dp</dimen>
+    <dimen name="margin_314">314dp</dimen>
+    <dimen name="margin_500">500dp</dimen>
+
+    <!--font size-->
+    <dimen name="font_6">6sp</dimen>
+    <dimen name="font_8">8sp</dimen>
+    <dimen name="font_9">9sp</dimen>
+    <dimen name="font_10">10sp</dimen>
+    <dimen name="font_11">11sp</dimen>
+    <dimen name="font_13">13sp</dimen>
+    <dimen name="text_size_p2">12sp</dimen>
+    <dimen name="text_size_p1">14sp</dimen>
+    <dimen name="font_15">15sp</dimen>
+    <dimen name="text_size_h3">16sp</dimen>
+    <dimen name="text_size_h3_18">18sp</dimen>
+    <dimen name="font_18">18sp</dimen>
+    <dimen name="text_size_h2">20sp</dimen>
+    <dimen name="text_size_h1_22">22sp</dimen>
+    <dimen name="font_24">24sp</dimen>
+    <dimen name="font_25">25sp</dimen>
+    <dimen name="font_32">32sp</dimen>
+    <dimen name="text_size_h1">30sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="height_image_grid_plp">192dp</dimen>
+    <dimen name="width_item_grid_plp">148dp</dimen>
+    <dimen name="height_filter_sub_search">55dp</dimen>
+    <dimen name="height_item_filter_key">55dp</dimen>
+    <dimen name="height_item_filter_value">55dp</dimen>
+    <dimen name="max_height_recyclerview_select_bottom_sheet">160dp</dimen>
+
+    <!--cardview radius size-->
+    <dimen name="card_view_radius_4">4dp</dimen>
+    <dimen name="add_new_address_button_width">200dp</dimen>
+    <dimen name="address_edittext_height">100dp</dimen>
+    <dimen name="add_comment_height">85dp</dimen>
+    <dimen name="fast_scroll_overlay_text_size">50dp</dimen>
+    <dimen name="brand_logo_recycler_view_height">120dp</dimen>
+    <dimen name="pdp_similar_recycler_view_height">286dp</dimen>
+    <dimen name="sticky_header_height">35dp</dimen>
+    <dimen name="following_brands_layout_height">50dp</dimen>
+    <dimen name="banner_view_pager_height">120dp</dimen>
+    <dimen name="banner_view_pager_layout_height">140dp</dimen>
+    <dimen name="home_banner_height">208dp</dimen>
+
+    <dimen name="fresh_from_brand_height">168dp</dimen>
+    <dimen name="fresh_from_brand_weight">238dp</dimen>
+
+    <dimen name="offer_component_height">312dp</dimen>
+    <dimen name="offer_component_weight">312dp</dimen>
+
+    <dimen name="product_list_img_size">210dp</dimen>
+    <dimen name="product_detail_size_color_size">22dp</dimen>
+    <dimen name="product_detail_size">36dp</dimen>
+
+    <dimen name="default_indexBar_textSize">12sp</dimen>
+    <dimen name="default_indexBar_textSpace">4dp</dimen>
+    <dimen name="default_indexBar_layout_width">24dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="index_text_size">10dp</dimen>
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10sp</dimen>
+
+    <dimen name="recently_viewed_main_w">94dp</dimen>
+    <dimen name="recently_viewed_main_w1">98dp</dimen>
+    <dimen name="recently_viewed_main_h">162dp</dimen>
+    <dimen name="recently_viewed_sub_w">77dp</dimen>
+    <dimen name="recently_viewed_sub_h">100dp</dimen>
+    <dimen name="recently_viewed_h">1214dp</dimen>
+
+    <dimen name="automated_main_w">135dp</dimen>
+    <dimen name="automated_main_w1">98dp</dimen>
+    <dimen name="automated_main_h">252dp</dimen>
+    <dimen name="automated_sub_w">115dp</dimen>
+    <dimen name="automated_sub_h">175dp</dimen>
+
+
+    <dimen name="font_34">34sp</dimen>
+    <dimen name="font_28">28sp</dimen>
+    <dimen name="font_74">74sp</dimen>
+
+    <item name="stroke_width" format="float" type="integer">0.6</item>
+</resources>
