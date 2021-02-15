@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/margin_30"
             android:gravity="center"
-            android:text="Tell us what CLiQed\nfor you"
+            android:text="Tell us what you \n liked"
             android:textColor="#212121"
             android:textSize="@dimen/text_size_h2"
             app:layout_constraintEnd_toEndOf="parent"
